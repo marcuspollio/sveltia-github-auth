@@ -4,7 +4,6 @@ parserOptions:
   sourceType: module
   ecmaVersion: latest
 extends:
-  - airbnb-base
   - prettier
   - plugin:jsdoc/recommended
 plugins:
@@ -58,7 +57,6 @@ rules:
       ignoreStrings: true
   no-param-reassign: off
   no-underscore-dangle: off
-  # https://github.com/airbnb/javascript/issues/1660#issuecomment-353018874 + small tweaks
   padding-line-between-statements:
     - error
     - blankLine: always
